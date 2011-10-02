@@ -2,7 +2,7 @@
 
 	git clone git://github.com/emilkje/dotvim.git ~/.vim && make -f ~/.vim/Makefile
 
-NB! Make sure you don\' have a current .vim directory in your home, or else the install will fail.
+<span style="color:red">NB! Make sure you don't have a current .vim directory in your home, or else the install will fail.</span>
 
 ##Adding your own plugins
 
