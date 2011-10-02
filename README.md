@@ -6,6 +6,6 @@
 
 To add you own plugins all you have to do is cd into your vim directory (~/.vim) and run the following command:
 
-	git submodule add git://github.com/author/plugin.git bundle/plugin
+	git submodule add git://github.com/author/plugin-name.git bundle/plugin-name
 
 If the plugin you are trying to install is not versioned with git, you can simply copy the plugin parent directory into the ~/.vim/bundle directory. Eg: ~/.vim/bundle/MyCoolPlugin/plugin/MyCoolPlugin.vim
