@@ -15,6 +15,9 @@ set ruler " Always show current positions along the bottom
 set showmatch " show matching brackets
 filetype plugin on
 
+" Disable audio bell
+set noerrorbells visualbell t_vb=
+
 " This is to make the snipmate work with inline html in php files
 au BufRead *.php set ft=php.html.cakephp
 au BufNewFile *.php set ft=php.html.cakephp
