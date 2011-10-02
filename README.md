@@ -4,7 +4,7 @@
 
 ##Adding your own plugins
 
-To add you own plugins alle you have to do is cd into your vim directory (~/.vim) and run the following command:
+To add you own plugins all you have to do is cd into your vim directory (~/.vim) and run the following command:
 
 	git submodule add git://github.com/author/plugin.git bundle/plugin
 
