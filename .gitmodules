@@ -13,3 +13,6 @@
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = https://github.com/emilkje/sparkup-bundle
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
