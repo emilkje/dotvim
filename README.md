@@ -2,6 +2,8 @@
 
 	git clone git://github.com/emilkje/dotvim.git ~/.vim && make -f ~/.vim/Makefile
 
+NB! Make sure you don\' have a current .vim directory in your home, or else the install will fail.
+
 ##Adding your own plugins
 
 To add you own plugins all you have to do is cd into your vim directory (~/.vim) and run the following command:
