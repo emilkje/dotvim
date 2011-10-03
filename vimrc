@@ -1,4 +1,4 @@
-set sts=4
+set sts=6
 set tabstop=4
 set shiftwidth=4
 
@@ -13,7 +13,7 @@ set nu
 nmap <C-N><C-N> :set invnumber<CR>
 set ruler " Always show current positions along the bottom
 set showmatch " show matching brackets
-filetype plugin on
+filetype indent plugin on
 
 " Disable audio bell
 set noerrorbells visualbell t_vb=
