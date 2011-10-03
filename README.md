@@ -14,6 +14,6 @@ If the plugin you are trying to install is not versioned with git, you can simpl
 
 ##Updating plugins
 
-Since we installed the plugins as git submodules, the update process is really simple:
+Since the plugins are installed as git submodules, the update process is really simple:
 
 	git submodule update
