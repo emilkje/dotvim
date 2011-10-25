@@ -1,4 +1,4 @@
-set sts=6
+set sts=4
 set tabstop=4
 set shiftwidth=4
 
