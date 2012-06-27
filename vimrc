@@ -2,6 +2,10 @@ set sts=4
 set tabstop=4
 set shiftwidth=4
 
+map <C-l> :tabn<CR>
+map <C-h> :tabp<CR>
+map <C-t> :NERDTree<CR>
+
 syntax on
 
 " Activate Pathogen to create plugin bundles
@@ -33,3 +37,6 @@ autocmd BufReadPost *
 \ exe "normal g'\"" |
 \ endif |
 \ endif
+
+" Github auth
+let g:gist_use_password_in_gitconfig = 1
