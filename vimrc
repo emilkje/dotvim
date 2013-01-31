@@ -38,5 +38,7 @@ autocmd BufReadPost *
 \ endif |
 \ endif
 
+autocmd VimEnter * if !argc() | NERDTree | endif
+
 " Github auth
 let g:gist_use_password_in_gitconfig = 1
