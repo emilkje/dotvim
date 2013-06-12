@@ -13,18 +13,12 @@
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = https://github.com/emilkje/sparkup-bundle
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = git://github.com/garbas/vim-snipmate.git
 [submodule "bundle/tlib"]
 	path = bundle/tlib
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle/addon-mw-utils"]
 	path = bundle/addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = https://github.com/honza/snipmate-snippets.git
 [submodule "bundle/vim-pasta"]
 	path = bundle/vim-pasta
 	url = git://github.com/sickill/vim-pasta.git
