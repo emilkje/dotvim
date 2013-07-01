@@ -42,3 +42,6 @@ autocmd VimEnter * if !argc() | NERDTree | endif
 
 " Github auth
 let g:gist_use_password_in_gitconfig = 1
+
+"register .htpl color formatting
+au BufRead,BufNewFile *.htpl set filetype=php
