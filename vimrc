@@ -9,7 +9,7 @@ map <C-t> :NERDTree<CR>
 syntax on
 
 " Activate Pathogen to create plugin bundles
-" OBS! Disse må kalles før filtype-detektering
+" NB! This must be initiated before filetype detection
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -38,6 +38,7 @@ autocmd BufReadPost *
 \ endif |
 \ endif
 
+" Enable NERDTree if no file is provided as argument
 autocmd VimEnter * if !argc() | NERDTree | endif
 
 " Github auth
